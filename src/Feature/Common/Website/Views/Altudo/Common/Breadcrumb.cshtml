@@ -1,0 +1,8 @@
+﻿@model IEnumerable<AltudoBtc1.Feature.Common.Models.BreadcrumbNav>
+
+@foreach(var navItem in Model)
+{
+    <div>
+        <a href="@navItem.NavUrl">@navItem.NavTitle</a>
+    </div>
+}

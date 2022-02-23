@@ -1,0 +1,9 @@
+﻿@model IEnumerable<AltudoBtc1.Project.Altudo.Models.Author>
+
+<h2>Authored By:</h2>
+@foreach(var authorItem in Model)
+{
+    <div>
+        <a href="@authorItem.Url">@authorItem.Name</a>
+    </div>
+}

@@ -1,0 +1,33 @@
+﻿---
+ID: "9c81f65e-e377-4bed-ad2d-1ba4bae4b1bf"
+Parent: "9cd72949-9261-4b82-b567-02ec9e6e9643"
+Template: "9cd72949-9261-4b82-b567-02ec9e6e9643"
+Path: /sitecore/templates/Project/VisitUs/Pages/DetailPages/Sport/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8E6B0A7F-A127-4F35-A57C-2E6B4988F114}">
+        <r
+          id="{488C468E-B587-463C-82B8-72C664E0D9D0}"
+          ph="altudo-main"
+          uid="{31723DAB-972C-47EB-B2BD-BE9B6CDC7924}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220214T084359Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

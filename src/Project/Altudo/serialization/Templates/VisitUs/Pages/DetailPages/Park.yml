@@ -1,0 +1,27 @@
+﻿---
+ID: "c5788ccb-8e6d-4030-92f7-68024bc472f1"
+Parent: "de3a8ffa-ab97-44b6-a4ad-56fb23151a58"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/VisitUs/Pages/DetailPages/Park
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Telescope.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {0CA5DF74-00D2-4B06-90A1-CB6D02B5BD2B}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{E323B3E0-4B0B-458F-9031-82266B38C70E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220211T113723Z

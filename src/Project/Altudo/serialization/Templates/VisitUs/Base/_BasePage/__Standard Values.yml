@@ -1,0 +1,23 @@
+﻿---
+ID: "a6d0e10b-9327-409c-acbf-e18b6a66111f"
+Parent: "0ca5df74-00d2-4b06-90a1-cb6d02b5bd2b"
+Template: "0ca5df74-00d2-4b06-90a1-cb6d02b5bd2b"
+Path: /sitecore/templates/Project/VisitUs/Base/_BasePage/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T103647Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

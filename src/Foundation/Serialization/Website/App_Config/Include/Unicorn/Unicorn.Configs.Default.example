@@ -1,0 +1,19 @@
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+	<sitecore>
+		<unicorn>
+			<configurations>
+				<configuration name="Altudo.Foundation.Website" description="All project level configs like, page templates, layouts, base page templates etc., are serialized here">
+					<predicate>
+						<include name="Templates" database="master" path="/sitecore/templates/Project/VisitUs" />
+						<include name="Layouts" database="master" path="/sitecore/layout/Layouts/Project/AltudoCommonLayout" />
+            <include name="Placeholder Settings" database="master" path="/sitecore/layout/Placeholder Settings/Project/altudo-main" />
+            <include name="Workflow" database="master" path="/sitecore/system/Workflows/VisitUs Workflow" />
+						<include name="Languages" database="master" path="/sitecore/system/Languages" />
+					</predicate>
+					<dataProviderConfiguration enableTransparentSync="false" />
+					<syncConfiguration updateLinkDatabase="false" updateSearchIndex="false" />
+				</configuration>
+			</configurations>
+		</unicorn>
+	</sitecore>
+</configuration>

@@ -1,0 +1,14 @@
+﻿@model IEnumerable<AltudoBtc1.Feature.DetailPage.Models.Review>
+
+<div>
+    <h4>Review Comments:</h4>
+    @foreach(var review in Model)
+    {
+        <div>
+            <h5>@review.Name</h5> (<h6>@review.EmailId</h6>)
+            <div>@review.PostedDate</div> (Rating: <b>@review.Rating</b>)
+            <p>@review.ReviewComments</p>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,60 @@
+﻿---
+ID: "0301467e-84b7-4f9c-aff6-230bf69ed799"
+Parent: "c29f84a0-acd2-4a9d-b904-8d127e97589b"
+Template: "c29f84a0-acd2-4a9d-b904-8d127e97589b"
+Path: /sitecore/templates/Project/VisitUs/Pages/DetailPages/Trip/__Standard Values
+DB: master
+SharedFields:
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8E6B0A7F-A127-4F35-A57C-2E6B4988F114}">
+        <r
+          id="{488C468E-B587-463C-82B8-72C664E0D9D0}"
+          ph="altudo-main"
+          uid="{A8672229-5E31-4AE9-9139-BF45500ACCDE}" />
+        <r
+          id="{DA8268DF-20EB-4877-8A61-BD0FB4703AC7}"
+          ph="altudo-main"
+          uid="{C201A41B-8B48-4D68-85A0-86BD100576CB}" />
+        <r
+          id="{3C7F4E8E-00DB-4B1D-BAD0-DF139CCACFFA}"
+          ph="altudo-main"
+          uid="{81095CF9-4115-468E-83F4-4455F9F9AB7C}" />
+        <r
+          id="{EC9B87B9-C65F-4678-AEE2-66669F8837A3}"
+          ph="altudo-main"
+          uid="{7289FDDE-E604-4ACD-A11F-915F02A982C7}" />
+        <r
+          id="{EE93B3BA-0270-4603-B8D4-60465297FBC5}"
+          ph="altudo-main"
+          uid="{6174AA1D-4823-4106-B3E7-0F72FBCC879E}" />
+        <r
+          id="{57861B6A-FD74-4B44-BF53-EF5A464FA24A}"
+          ph="altudo-main"
+          uid="{FE3A9A8E-AB83-455E-AEFE-6AB64F069DCF}" />
+        <r
+          id="{3559E911-3F39-4EC3-B2EC-A89A3B859FFF}"
+          ph="altudo-main"
+          uid="{24EFD059-F2CA-4B8A-80F5-08DA7EE26385}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220214T084420Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "8f6476fb-32fa-4ddc-abb5-0475edc448e9"
+Parent: "7c8d2175-a8b6-4477-aa11-e3e2fcc6d015"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/VisitUs Workflow/Prepublishing/Reject
+DB: master
+SharedFields:
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{0E8CEEEB-017B-4126-8037-EA3C7D653650}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220221T111122Z

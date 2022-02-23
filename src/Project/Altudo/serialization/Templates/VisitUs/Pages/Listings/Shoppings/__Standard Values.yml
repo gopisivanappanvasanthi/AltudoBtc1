@@ -1,0 +1,32 @@
+﻿---
+ID: "0325a1e5-a214-4306-8a81-afe049652866"
+Parent: "d8e6233b-0102-40e6-884d-cd1bba73f810"
+Template: "d8e6233b-0102-40e6-884d-cd1bba73f810"
+Path: /sitecore/templates/Project/VisitUs/Pages/Listings/Shoppings/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{5C5B2DA7-F509-4F36-9003-1919BE800BB1}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8E6B0A7F-A127-4F35-A57C-2E6B4988F114}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220211T121652Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

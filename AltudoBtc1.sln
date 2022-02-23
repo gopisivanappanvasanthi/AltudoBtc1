@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{4C1C49F8-8137-4AD6-8255-817F2A458043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{327D4E49-BA5C-4E80-90B8-2E1FE9BEF6F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{0FC29C16-EAD8-4FE3-A356-EEB5C3948071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Altudo", "Altudo", "{10165BBB-705F-454B-BD0B-3DA64D5C12FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBtc1.Project.Altudo", "src\Project\Altudo\code\AltudoBtc1.Project.Altudo.csproj", "{A9FB797C-A7CA-46B0-852F-A3E4849E2176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DetailPage", "DetailPage", "{B2186A9A-A37D-4BA4-BB4D-BF6A42315DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBtc1.Feature.DetailPage", "src\Feature\DetailPage\Website\AltudoBtc1.Feature.DetailPage.csproj", "{2AE94321-4C4C-470D-B156-BEC5091F4632}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{316C1CDA-3500-4ADB-A7D2-742EAEED1461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBtc1.Feature.Common", "src\Feature\Common\Website\AltudoBtc1.Feature.Common.csproj", "{853F0925-5657-4CFA-AD80-235273C512FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ListingPage", "ListingPage", "{0AE1FE2A-44EF-4FBE-BA3C-1D7066ADA38A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CategoryPage", "CategoryPage", "{F00E4B56-7356-43BE-9D40-5843D84A3996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{65A1264C-FA4F-4C63-8506-DAE1FA2EF02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBtc1.Foundation.Serialization", "src\Foundation\Serialization\Website\AltudoBtc1.Foundation.Serialization.csproj", "{5CDB5962-52D3-4361-9917-78B5E6D88C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9FB797C-A7CA-46B0-852F-A3E4849E2176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FB797C-A7CA-46B0-852F-A3E4849E2176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FB797C-A7CA-46B0-852F-A3E4849E2176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FB797C-A7CA-46B0-852F-A3E4849E2176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE94321-4C4C-470D-B156-BEC5091F4632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE94321-4C4C-470D-B156-BEC5091F4632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE94321-4C4C-470D-B156-BEC5091F4632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE94321-4C4C-470D-B156-BEC5091F4632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853F0925-5657-4CFA-AD80-235273C512FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853F0925-5657-4CFA-AD80-235273C512FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853F0925-5657-4CFA-AD80-235273C512FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853F0925-5657-4CFA-AD80-235273C512FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDB5962-52D3-4361-9917-78B5E6D88C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDB5962-52D3-4361-9917-78B5E6D88C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDB5962-52D3-4361-9917-78B5E6D88C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDB5962-52D3-4361-9917-78B5E6D88C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10165BBB-705F-454B-BD0B-3DA64D5C12FD} = {4C1C49F8-8137-4AD6-8255-817F2A458043}
+		{A9FB797C-A7CA-46B0-852F-A3E4849E2176} = {10165BBB-705F-454B-BD0B-3DA64D5C12FD}
+		{B2186A9A-A37D-4BA4-BB4D-BF6A42315DD6} = {0FC29C16-EAD8-4FE3-A356-EEB5C3948071}
+		{2AE94321-4C4C-470D-B156-BEC5091F4632} = {B2186A9A-A37D-4BA4-BB4D-BF6A42315DD6}
+		{316C1CDA-3500-4ADB-A7D2-742EAEED1461} = {0FC29C16-EAD8-4FE3-A356-EEB5C3948071}
+		{853F0925-5657-4CFA-AD80-235273C512FB} = {316C1CDA-3500-4ADB-A7D2-742EAEED1461}
+		{0AE1FE2A-44EF-4FBE-BA3C-1D7066ADA38A} = {0FC29C16-EAD8-4FE3-A356-EEB5C3948071}
+		{F00E4B56-7356-43BE-9D40-5843D84A3996} = {0FC29C16-EAD8-4FE3-A356-EEB5C3948071}
+		{65A1264C-FA4F-4C63-8506-DAE1FA2EF02F} = {327D4E49-BA5C-4E80-90B8-2E1FE9BEF6F3}
+		{5CDB5962-52D3-4361-9917-78B5E6D88C90} = {65A1264C-FA4F-4C63-8506-DAE1FA2EF02F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {6B772684-485F-4B2C-BE40-108166846F9B}
+	EndGlobalSection
+EndGlobal

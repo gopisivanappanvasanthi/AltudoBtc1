@@ -1,0 +1,36 @@
+﻿---
+ID: "70085eb2-c9ab-4c6e-944c-646023ee9847"
+Parent: "5c5b2da7-f509-4f36-9003-1919be800bb1"
+Template: "5c5b2da7-f509-4f36-9003-1919be800bb1"
+Path: /sitecore/templates/Project/VisitUs/Pages/DetailPages/Shopping/__Standard Values
+DB: master
+SharedFields:
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{773BC06A-6D1D-4F1A-9EEB-E58AF54C0A43}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8E6B0A7F-A127-4F35-A57C-2E6B4988F114}">
+        <r
+          id="{488C468E-B587-463C-82B8-72C664E0D9D0}"
+          ph="altudo-main"
+          uid="{CD11B69E-11D5-4203-8EF8-71F346276418}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220214T084342Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

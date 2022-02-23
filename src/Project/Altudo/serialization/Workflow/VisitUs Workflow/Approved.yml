@@ -1,0 +1,23 @@
+﻿---
+ID: "6fcd0458-b700-48da-80a3-4cb33a67dafb"
+Parent: "773bc06a-6d1d-4f1a-9eeb-e58af54c0a43"
+Template: "4b7e2da9-de43-4c83-88c3-02f042031d04"
+Path: /sitecore/system/Workflows/VisitUs Workflow/Approved
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    au|sitecore\Gopi|pe|+workflowCommand:execute|+workflowState:write|+workflowState:delete|^*|pd|+workflowCommand:execute|+workflowState:write|+workflowState:delete|^*|
+- ID: "fb8abc73-7acf-45a0-898c-d3ccb889c3ee"
+  Hint: Final
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220221T110831Z
